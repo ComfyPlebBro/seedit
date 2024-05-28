@@ -40,7 +40,7 @@ export const useDefaultSubplebbits = () => {
     (async () => {
       try {
         const multisub = await fetch(
-          'https://raw.githubusercontent.com/plebbit/temporary-default-subplebbits/master/multisub.json',
+          'https://raw.githubusercontent.com/ComfyPlebBro/temporary-default-subplebbits/master/multisub.json',
           // { cache: 'no-cache' }
         ).then((res) => res.json());
 
